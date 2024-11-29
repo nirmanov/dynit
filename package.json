@@ -1,0 +1,27 @@
+{
+  "name": "dynit",
+  "version": "1.0.0",
+  "description": "Dynamic unit calculator for smooth value transitions between screen widths",
+  "main": "dist/dynit.js",
+  "types": "dist/dynit.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "css",
+    "responsive",
+    "dynamic",
+    "units",
+    "calc",
+    "media-queries"
+  ],
+  "author": "nirmanov",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
